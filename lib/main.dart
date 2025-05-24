@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:shopping_list/widgets/grocery_list.dart';
 
 var kColorScheme = ColorScheme.fromSeed(
-  seedColor: Color.fromARGB(255, 180, 60, 140),
+  seedColor: Color.fromARGB(255, 216, 48, 126),
 );
 
 var kDarkColorScheme = ColorScheme.fromSeed(
   brightness: Brightness.dark,
-  seedColor: Color.fromARGB(255, 180, 60, 140),
+  seedColor: Color.fromARGB(255, 216, 48, 126),
 );
 
 void main() {
