@@ -33,8 +33,8 @@ class MyApp extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             backgroundColor: kDarkColorScheme.primaryContainer,
             foregroundColor: kDarkColorScheme.onPrimaryContainer,
-            shape: ContinuousRectangleBorder(
-              borderRadius: BorderRadiusGeometry.circular(16),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadiusGeometry.circular(8),
             ),
           ),
         ),
@@ -53,8 +53,8 @@ class MyApp extends StatelessWidget {
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
             backgroundColor: kColorScheme.primaryContainer,
-            shape: ContinuousRectangleBorder(
-              borderRadius: BorderRadiusGeometry.circular(16),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadiusGeometry.circular(8),
             ),
           ),
         ),
